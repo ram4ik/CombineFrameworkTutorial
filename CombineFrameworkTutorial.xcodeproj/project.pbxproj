@@ -17,6 +17,8 @@
 		95340ADB262EBC3C00C2F124 /* QuotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95340ADA262EBC3C00C2F124 /* QuotesView.swift */; };
 		95340AE1262EC09B00C2F124 /* quote2.json in Resources */ = {isa = PBXBuildFile; fileRef = 95340AE0262EC09B00C2F124 /* quote2.json */; };
 		95340AE4262EC0E500C2F124 /* quote3.json in Resources */ = {isa = PBXBuildFile; fileRef = 95340AE3262EC0E500C2F124 /* quote3.json */; };
+		95340AEB262EE59D00C2F124 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95340AEA262EE59D00C2F124 /* ImageFetcher.swift */; };
+		95340AEE262EE82600C2F124 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95340AED262EE82600C2F124 /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		95340ADA262EBC3C00C2F124 /* QuotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesView.swift; sourceTree = "<group>"; };
 		95340AE0262EC09B00C2F124 /* quote2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quote2.json; sourceTree = "<group>"; };
 		95340AE3262EC0E500C2F124 /* quote3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quote3.json; sourceTree = "<group>"; };
+		95340AEA262EE59D00C2F124 /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
+		95340AED262EE82600C2F124 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		95340ABA262EB70C00C2F124 /* CombineFrameworkTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				95340AE9262EE58900C2F124 /* Images */,
 				95340AD2262EB99800C2F124 /* Quotes */,
 				95340ACB262EB90800C2F124 /* resources */,
 				95340ABB262EB70C00C2F124 /* CombineFrameworkTutorialApp.swift */,
@@ -101,6 +106,15 @@
 				95340ADA262EBC3C00C2F124 /* QuotesView.swift */,
 			);
 			path = Quotes;
+			sourceTree = "<group>";
+		};
+		95340AE9262EE58900C2F124 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				95340AEA262EE59D00C2F124 /* ImageFetcher.swift */,
+				95340AED262EE82600C2F124 /* ImageView.swift */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,7 +192,9 @@
 				95340AD7262EB9F100C2F124 /* QuoteFetcher.swift in Sources */,
 				95340ABE262EB70C00C2F124 /* ContentView.swift in Sources */,
 				95340ABC262EB70C00C2F124 /* CombineFrameworkTutorialApp.swift in Sources */,
+				95340AEB262EE59D00C2F124 /* ImageFetcher.swift in Sources */,
 				95340AD4262EB9B000C2F124 /* QuoteModel.swift in Sources */,
+				95340AEE262EE82600C2F124 /* ImageView.swift in Sources */,
 				95340ADB262EBC3C00C2F124 /* QuotesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

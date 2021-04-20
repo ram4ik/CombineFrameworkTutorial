@@ -15,6 +15,12 @@ struct ContentView: View {
                     Image(systemName: "quote.bubble")
                     Text("Quotes")
                 }
+            
+            ImageView()
+                .tabItem {
+                    Image(systemName: "esim")
+                    Text("Images")
+                }
         }.accentColor(.secondary)
     }
 }
