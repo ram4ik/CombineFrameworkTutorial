@@ -9,7 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        QuotesView()
+        TabView {
+            QuotesView()
+                .tabItem {
+                    Image(systemName: "quote.bubble")
+                    Text("Quotes")
+                }
+        }.accentColor(.secondary)
     }
 }
 
